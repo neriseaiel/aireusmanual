@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>AIREUS Manual</title>
+  <!-- Firebase Reference -->
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+  <link rel="shortcut icon" type="image/png" href="etc/images/favicon-96x96.png">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Orbitron" rel="stylesheet">
+  
+
+
+  <style>
+  
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 110px;
+}
+
+img {
+
+    width: 150px;
+    height: 150px;
+}
+  
+  </style>
+</head>
+
+<body>
+
+   <video autoplay muted loop id="myVideo">
+    <source src="https://firebasestorage.googleapis.com/v0/b/aireus-video.appspot.com/o/Aireus%20iPad%20POS%20for%20Restaurants%20Live.mp4?alt=media&token=f7873276-f72d-49d0-9d29-27d47b5b2ef9" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+      
+      <div class="content">
+          <h1>AIREUS Manual</h1>
+          <div class="row">
+
+            <div class="column">
+                    <div class="zoom">
+                        <a href="home.html"><img src="etc/images/home.png"></a>
+                </div>
+
+             <div class="column">
+                 <div class="zoom">
+                    <a href="manual.html"><img src="etc/images/newmanual.png"></a> 
+                 </div>
+            
+
+           <div class="column">
+              <div class="zoom">
+                 <a href="troubleshooting.html"><img src="etc/images/newsettings.png"></a>
+             </div>
+           
+
+          <div class="column">
+              <div class="zoom">
+                <a href="contact.html"><img src="etc/images/env.png"></a>
+             </div>
+           
+
+          </div>
+        </div>
+        
+      
+
+      <footer id = "thefooter"></footer>
+
+      
+      
+    
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Script -->
+  <script src="logic.js"></script>
+  
+
+</body>
+
+</html>
